@@ -1,0 +1,51 @@
+TicTacToe Java
+
+#part1
+1. create main class, TicTacToe class
+2. create array,constructor(initialize the array, board) for board and also call initboard method
+3. create initboard(initialize with character) method to initialize board to null(involves loop)
+4. create a method to display board(same loop as in 3)
+5. create object and display board
+6. create placemark method with 3 parameters and include condition for invalid address in array
+7. first ensure that first character is not equal to empty character and create colwin and rowwin and diagonalwin methods to check for win
+
+
+#part2
+
+Human Player
+{
+AI player
+{
+  name:string
+  mark : char
+
+methods:
+
+makemove(){take input from user until it is valid using do-while loop, call putmark}
+isvalidmove(){check whether given row,col are in allowed range and also check if the given square has empty, access board using static}
+}
+}
+
+
+AI player
+{
+  name:string
+  mark : char
+
+methods:
+
+makemove(){code using random}
+isvalidmove(){check whether given row,col are in allowed range and also check if the given square has empty, access board using static}
+}
+
+
+
+inside LaunchGame keep an eye on which player is playing
+
+access all the methods using static and check for win inside LaunchGame
+
+use inheritance and increase reusability
+
+using while run loop in LaunchGame to run game until one has won
+
+include draw condition
